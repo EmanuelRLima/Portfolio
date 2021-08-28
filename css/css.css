@@ -118,7 +118,7 @@
     }
   }
 .modalcontainer{
-  display: flex;/* none*/
+  display: none;
   width: 100%;
   height: 1000px;
   margin: -0.5em;
