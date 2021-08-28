@@ -214,7 +214,11 @@
   }
 }
 
-
+@media (max-width: 985px){
+  .imgbod{
+  height: 488px;
+  }
+}
 @media (max-width: 650px){
   .imgbod{
   display: none;
