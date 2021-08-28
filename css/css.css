@@ -1,6 +1,9 @@
 
 .bodys{
   float: left;
+  padding-top: 4%;
+  width: 50%;
+  height: 50%;
 }
 
 .imgbod{
@@ -13,7 +16,7 @@
 }
 .Paragrafo{
   font-size: 22px;
-  margin-top: 12em;
+  margin-top: 15%;
   margin-left: 2em;
   font-family: 'Saira Extra Condensed', sans-serif;
   position: center;
@@ -85,38 +88,6 @@
     display: none;
   }
   
-  @media screen and (max-width: 650px) {
-    .navbar a:not(:first-child) {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    .navbar.responsive {position: relative;}
-    .navbar.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navbar.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-
-  @media (max-width: 985px){
-    .imgbod{
-    float: right;
-    position: absolute;
-    margin-left: 20em;
-    margin-top: 1.7em;
-    height: 800px;
-    width: 25%;
-    }
-  }
 .modalcontainer{
   display: none;
   width: 100%;
@@ -129,23 +100,6 @@
   align-items: center;
 }
 
-@keyframes modal{
-  from{
-    opacity: 0;
-
-  } to{
-    opacity: 100%;
-
-  }
-}
-@keyframes boxs{
-  from{
-    opacity: 0%;
-    
-  } to{
-    opacity: 100%;
-  }
-}
 .modal{
   animation: modal 0.5s;
   background-image: url("https://i.pinimg.com/originals/c8/21/e6/c821e6f6a409765d5b593ec84eb06cc8.jpg");
@@ -228,6 +182,70 @@
   font-size: 24px;
   font-family: 'Saira Extra Condensed', sans-serif;
 }
+
+@media screen and (max-width: 650px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1380px){
+  .imgbod{
+    height: 488px;
+  }
+  .Paragrafo{
+    margin-top: 10%;
+  }
+}
+
+
+@media (max-width: 650px){
+  .imgbod{
+  display: none;
+  float: none;
+  }
+  .bodys{
+    width: 90%;
+  }
+  .Paragrafo{
+    margin-top: 3em;
+  }
+  .pr{
+    float: left;
+    display: block;
+    padding-left: 12%;
+    animation: boxs 2s;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+  }
+  .curriculo{
+    display: none;
+    opacity: 0%;
+  }
+  .pesquisa{
+    display: none;
+    opacity: 0%;
+  }
+}
+
+
 @media (max-width: 1570px){
 
   .curriculo{
@@ -291,22 +309,22 @@
     opacity: 0%;
   }
 }
-@media (max-width: 600px){
-  .pr{
-    float: left;
-    display: block;
-    padding-left: 12%;
-    animation: boxs 2s;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Saira Extra Condensed', sans-serif;
+
+
+@keyframes modal{
+  from{
+    opacity: 0;
+
+  } to{
+    opacity: 100%;
+
   }
-  .curriculo{
-    display: none;
+}
+@keyframes boxs{
+  from{
     opacity: 0%;
-  }
-  .pesquisa{
-    display: none;
-    opacity: 0%;
+    
+  } to{
+    opacity: 100%;
   }
 }
