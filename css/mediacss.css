@@ -1,0 +1,188 @@
+@media screen and (max-width: 1380px){
+  .imgbod{
+    height: 488px;
+  }
+  .hcr{
+    margin: 0 0 0 50%;
+  }
+  .hcr1{
+    margin: 0 0 0 45%;
+  }
+  .hcr2{
+    margin: 0 0 0 50%;
+  }
+  .imgbod2 , .imgbod4 , .imgbod3 {
+    padding-left: 1em;
+  }
+  .Paragrafo{
+    margin-top: 10%;
+  }
+  .mg1{
+    width: 80%;
+  }
+ .curriculo{
+  margin: 1.5em 0 0 5%;
+ }
+ .pesquisa{
+  margin: 1.5em 0 0 32%;
+ }
+ .pessoal{
+  margin: 1.5em 0 0 58%;
+ }
+}
+
+@media (max-width: 985px){
+  .imgbod{
+    height: 488px;
+  }
+  .curriculo{
+    display: none;
+  }
+  .pesquisa{
+    display: none;
+  }
+  .pessoal{
+    display: none;
+  }
+  .pr{
+    float: left;
+    display: flex;
+    padding-left: 17%;
+    margin-top: 15%;
+    animation: boxs 2s;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .navbar a:not(:first-child) {display: none; animation: boxs 2s;}
+  .navbar a.icon { 
+    display: block;
+    width: 30%;
+    padding: 7px 16px;
+    margin: 0 0 0 2em;
+  }
+  .navbar.responsive {position: relative;} 
+  .navbar.responsive a {
+    float: none;
+    display: block;
+  }  
+  .imgbod{
+    display: none;
+    float: none;
+  }
+  .hcr{
+    margin: 0 0 2% 43%;
+  }
+  .hcr1{
+    margin: 0 0 0 29%;
+  }
+  .hcr2{
+    margin: 0 0 0 39%;
+  }
+  .imgbod2 , .imgbod4 , .imgbod3 {
+    padding-left: 25.2%;
+  }
+
+  .habilidades1 , .habilidades2 , .habilidades3{
+      display: inline-grid;
+      text-align: center;
+  }
+  .bodys{
+    width: 90%;
+  }
+  .Paragrafo{
+    margin-top: 3em;
+  }
+  .pr{
+    margin: 15% 0 1% 23%;
+    animation: boxs 2s;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+  }
+  .curriculo{
+    display: none;
+    opacity: 0%;
+  }
+  .pesquisa{
+    display: none;
+    opacity: 0%;
+  }
+  .mg{
+    display: flex;
+    padding-top: 10em;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .curriculo{
+    display: none;
+  }
+  .pesquisa{
+    display: none;
+  }
+  .pessoal{
+    display: none;
+  }
+  .pr{
+    float: left;
+    display: flex;
+    padding-left: 16.5%;
+    margin-top: 10%;
+    animation: boxs 2s;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+  }
+}
+
+@keyframes modal{
+  from{
+    opacity: 0;
+  } to{
+    opacity: 100%;
+  }
+}
+
+@keyframes boxs{
+  from{
+    opacity: 0%;
+  } to{
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hcr{
+    margin: 0 0 0 40%;
+  }
+  .hcr1{
+    margin: 0 0 0 19%;
+  }
+  .hcr2{
+    margin: 0 0 0 35%;
+  }
+  .imgbod2 , .imgbod3, .imgbod4{
+    padding-left: 14%;
+
+  }
+}
+@media screen and (max-width: 360px) {
+  .hcr{
+    margin: 0 0 5% 38%;
+  }
+  .hcr1{
+    margin: 0 0 5% 13.5%;
+  }
+  .hcr2{
+    margin: 0 0 5% 32%;
+  }
+  .imgbod2 , .imgbod3, .imgbod4{
+    padding-left: 7%;
+
+  }
+}

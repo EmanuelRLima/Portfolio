@@ -1,26 +1,22 @@
 function openmodal(mn){
-    let modal = document.getElementById(mn);
-    if (typeof modal == 'undefined' || modal === null)
+  let modal1 = document.getElementById(mn);
+   if (typeof modal1 == 'undefined' || modal1 === null)
     return;
-    
-      modal.style.display = 'flex';
-  }
+      modal1.style.display = 'flex';
+}
 
-  function closemodal(mn){
-    let modal = document.getElementById(mn);
-    if (typeof modal == 'undefined' || modal === null)
-    return;
-    
-      modal.style.display = 'none';
-  }
-  
-  function myFunction() {
-    var x = document.getElementById("MNavbar");
+function closemodal(mn){
+  let modal1 = document.getElementById(mn);
+    if (typeof modal1 == 'undefined' || modal1 === null)
+      return;
+        modal1.style.display = 'none';
+}
+
+function myFunction() {
+  var x = document.getElementById("MNavbar");
     if (x.className === "navbar") {
       x.className += " responsive";
-    } else {
+    }else {
       x.className = "navbar";
-    }
   }
-  
-  
+}
