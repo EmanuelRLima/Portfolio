@@ -16,18 +16,13 @@
   font-family: 'Saira Extra Condensed', sans-serif;
   margin: 2% 0 5% 46%;
 }
-.hcr2{
+.hcr2 , .hcr3{
   animation: boxs 4.5s;
   float: left;
   font-family: 'Saira Extra Condensed', sans-serif;
   margin: 2% 0 5% 50%;
 }
-.hcr3{
-  animation: boxs 4.5s;
-  float: left;
-  font-family: 'Saira Extra Condensed', sans-serif;
-  margin: 2% 0 5% 50%;
-}
+
 .imgbod2 {
   animation: boxs 4s;
   float: left;

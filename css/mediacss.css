@@ -11,6 +11,9 @@
   .hcr2{
     margin: 0 0 0 50%;
   }
+  .hcr3{
+    margin: 0 0 0 47%;
+  }
   .imgbod2 , .imgbod4 , .imgbod3 {
     padding-left: 1em;
   }
@@ -81,6 +84,9 @@
   }
   .hcr2{
     margin: 0 0 0 39%;
+  }
+  .hcr3{
+    margin: 0 0 0 33%;
   }
   .imgbod2 , .imgbod4 , .imgbod3 {
     padding-left: 25.2%;
@@ -164,6 +170,9 @@
   .hcr2{
     margin: 0 0 0 35%;
   }
+  .hcr3{
+    margin: 0 0 0 25.5%;
+  }
   .imgbod2 , .imgbod3, .imgbod4{
     padding-left: 14%;
   }
@@ -183,6 +192,9 @@
   }
   .hcr2{
     margin: 0 0 5% 32%;
+  }
+  .hcr3{
+    margin: 0 0 0 20%;
   }
   .imgbod2 , .imgbod3, .imgbod4{
     padding-left: 7%;
