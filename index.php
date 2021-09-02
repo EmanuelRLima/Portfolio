@@ -21,9 +21,9 @@
         <a class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
        </a>
-          <a href="">Home</a>
-          <a href="">Contact</a>
-          <a href="">Network</a>
+          <a href="index.php">Início</a>
+          <a href="contacts.php">Contatos</a>
+          <a target="_blank" href="https://github.com/sprylerIF">Github</a>
           <a href="">Feedback</a>
       </div>
   </nav>

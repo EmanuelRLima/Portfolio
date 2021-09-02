@@ -21,9 +21,9 @@
         <a class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
        </a>
-          <a href="">Home</a>
-          <a href="">Contact</a>
-          <a href="">Network</a>
+          <a href="index.php">Início</a>
+          <a href="contacts.php">Contatos</a>
+          <a target="_blank" href="https://github.com/sprylerIF">Github</a>
           <a href="">Feedback</a>
       </div>
   </nav>
@@ -58,6 +58,27 @@
       </div>
 </div>
 </div>
+<h1 class="hcr3"> Formação academica </h1>
+  <div class="habilidadesprof"> 
+  <img class="imgbod2" src="img/if.png">
+  <div class="habilidades1">
+        <h2> Ensino médio </h2>
+          <p> Conclui meu ensino médio pelo IFRN - Natal - Zona norte, lá eu tive meu primeiro contato com linguagens de 
+            programação pois eu estudava no técnico integrado ao curso de informática para internet, do pérido de 2017 a 2021
+            (a pandemia de covid-19 fez meus estudos irem além dos 4 anos convencionais).
+          </p>
+      </div>  
+
+      <div class="habilidades4"> 
+  <img class="imgbod2" src="img/sa.png">
+  <div class="habilidades1">
+        <h2> Graduação </h2>
+          <p> Hoje eu estudo na universidade estácio de sá no formato 100% EAD, atualmente estou no segundo período de 
+              engenharia de software, com previsão para termino em 2024. </p>
+      </div>
+</div>
+</div>
+
   <h1 class="hcr2"> Habilidades </h1> 
     <div class="habilidades">    
     <img class="imgbod2" src="img/prog.png">
@@ -86,6 +107,11 @@
               é uma tarefa que pode ser complicada, porém consigo ter um dialogo sensato e calmo mediante
               situações de extremo atrito, habilidades essas adiquiridas não apenas como gremista, mas 
               também trabalhando em telemarket, onde as situaçãoes podem ser extremamente caóticas </p>
+      </div>
+      <div class="habilidades2">
+      <img class="imgbod4" src="img/cna.png">
+        <h2> Nivel de inglês </h2>
+          <p> Atualemente curso aulas de inglês pela CNA e tenho um nivél intermediario de fala e leitura. </p>
       </div>
     </div>
 </body>

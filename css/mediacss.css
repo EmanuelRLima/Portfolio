@@ -29,19 +29,16 @@
  .pessoal{
   margin: 1.5em 0 0 58%;
  }
+ .linkcontact{
+  padding-left: 4%;
+}
 }
 
 @media (max-width: 985px){
   .imgbod{
     height: 488px;
   }
-  .curriculo{
-    display: none;
-  }
-  .pesquisa{
-    display: none;
-  }
-  .pessoal{
+  .curriculo , .pesquisa , .pessoal{
     display: none;
   }
   .pr{
@@ -53,6 +50,9 @@
     text-align: center;
     font-size: 24px;
     font-family: 'Saira Extra Condensed', sans-serif;
+  }
+  .linkcontact{
+    padding-left: 2.5em;
   }
 }
 
@@ -103,11 +103,7 @@
     font-size: 24px;
     font-family: 'Saira Extra Condensed', sans-serif;
   }
-  .curriculo{
-    display: none;
-    opacity: 0%;
-  }
-  .pesquisa{
+  .curriculo , .pesquisa{
     display: none;
     opacity: 0%;
   }
@@ -117,16 +113,18 @@
     width: 100%;
     height: 100%;
   }
+  .linkcontact{
+    padding-left: 1.5em;
+    }
 }
-
+@media screen and (max-width: 797px){
+  .linkcontact{
+    float: left;
+    padding-left: 4%;
+  }
+}
 @media screen and (max-height: 650px) {
-  .curriculo{
-    display: none;
-  }
-  .pesquisa{
-    display: none;
-  }
-  .pessoal{
+  .curriculo , .pesquisa , .pessoal{
     display: none;
   }
   .pr{
@@ -156,7 +154,7 @@
     opacity: 100%;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .hcr{
     margin: 0 0 0 40%;
   }
@@ -168,9 +166,14 @@
   }
   .imgbod2 , .imgbod3, .imgbod4{
     padding-left: 14%;
-
+  }
+  .linkcontact{
+    float: left;
+    width: 30%;
+    padding-left: 3.5em;
   }
 }
+
 @media screen and (max-width: 360px) {
   .hcr{
     margin: 0 0 5% 38%;
@@ -183,6 +186,8 @@
   }
   .imgbod2 , .imgbod3, .imgbod4{
     padding-left: 7%;
-
+  }
+  .linkcontact{
+    padding-left: 2%;
   }
 }

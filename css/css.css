@@ -23,6 +23,12 @@
   font-family: 'Saira Extra Condensed', sans-serif;
   margin: 2% 0 5% 50%;
 }
+.hcr3{
+  animation: boxs 4.5s;
+  float: left;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  margin: 2% 0 5% 50%;
+}
 .imgbod2 {
   animation: boxs 4s;
   float: left;
@@ -80,7 +86,6 @@
   height: 800px;
   width: 32%;
 }
-
 .Paragrafo{
   font-size: 22px;
   margin-top: 15%;
@@ -88,7 +93,6 @@
   font-family: 'Saira Extra Condensed', sans-serif;
   position: center;
 }
-
 .btn{
   font-size: 22px;
   margin-top: 2em;
@@ -100,11 +104,9 @@
   position: center;
   cursor: pointer;
 }
-
 .btn:active{
   background-color: white;
 }
-
 .navbar{  
   float: right;
   background-color: white;
@@ -112,24 +114,19 @@
   padding: auto;
   margin: 0 0px;
 }
-
 .logo{
   float: left;
   margin-left: 2em;
   width: 7em;
 }
-
 .links{
   float: right;
   margin-right: 6em;
   margin-top: 2em;
 }
-
 .navitem , .navlink{
   float: right;
 }
-
-
 .navbar a {
   float: left;
   display: block;
@@ -140,21 +137,17 @@
   font-size: 24px;
   font-family: 'Saira Extra Condensed', sans-serif;
  }
-  
 .navbar a:hover {
   background-color: #fff;
   color: black;
  }
-  
 .navbar a.active {
   background-color: #04AA6D;
   color: white;
- }
-  
+ } 
 .navbar .icon {
   display: none;
- }
-  
+ } 
 .modalcontainer{
   display: none;
   width: 100%;
@@ -166,7 +159,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .modal1{
   animation: modal 0.5s;
   background-image: url("https://i.pinimg.com/originals/c8/21/e6/c821e6f6a409765d5b593ec84eb06cc8.jpg");
@@ -186,7 +178,6 @@
   color: white;
   cursor: pointer;
 }
-
 .curriculo{
   animation: boxs 2s;
   float: left;
@@ -196,7 +187,6 @@
   font-size: 24px;
   font-family: 'Saira Extra Condensed', sans-serif;
 }
-
 .pesquisa{
   float: left;
   animation: boxs 2s;
@@ -206,7 +196,6 @@
   font-size: 24px;
   font-family: 'Saira Extra Condensed', sans-serif;
 }
-
 .pessoal{
   float: left;
   animation: boxs 2s;
@@ -216,27 +205,22 @@
   font-size: 24px;
   font-family: 'Saira Extra Condensed', sans-serif;
 }
-
 .curriculo a:link{
   color: black;
   text-decoration: none;
 }
-
 .pesquisa a:link{
   color: black;
   text-decoration: none;
 }
-
 .pessoal a:link{
   color: black;
   text-decoration: none;
 }
-
 .pr{
   color: black;
   text-decoration: none;
 }
-
 .pr{
   display: none;
   animation: boxs 2s;
@@ -248,4 +232,20 @@
   display: none;
   width: 100%;
   height: 100%;
+}
+
+.containecontact{
+  width: 100%;
+}
+.h1contact{
+  animation: boxs 1.5s;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+.linkcontact{
+  animation: boxs 3s;
+  width: 19.5%;
+  padding-left: 4%;
+  margin: 3% 0 4% 0;
 }
