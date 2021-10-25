@@ -14,7 +14,7 @@
   .hcr3{
     margin: 0 0 0 47%;
   }
-  .imgbod2 , .imgbod4 , .imgbod3 {
+  .imgbod2 , .imgbod4 , .imgbod3 , .imgbodd{
     padding-left: 1em;
   }
   .Paragrafo{
@@ -24,16 +24,16 @@
     width: 80%;
   }
  .curriculo{
-  margin: 1.5em 0 0 5%;
+  margin: 3em 0 0 15%;
  }
  .pesquisa{
-  margin: 1.5em 0 0 32%;
- }
- .pessoal{
-  margin: 1.5em 0 0 58%;
+  margin: 3em 0 0 50%;
  }
  .linkcontact{
   padding-left: 4%;
+}
+.btn2{
+  margin-left: 29%;
 }
 }
 
@@ -41,13 +41,13 @@
   .imgbod{
     height: 488px;
   }
-  .curriculo , .pesquisa , .pessoal{
+  .curriculo , .pesquisa{
     display: none;
   }
   .pr{
     float: left;
     display: flex;
-    padding-left: 17%;
+    padding-left: 27%;
     margin-top: 15%;
     animation: boxs 2s;
     text-align: center;
@@ -64,17 +64,37 @@
   .navbar a.icon { 
     display: block;
     width: 30%;
-    padding: 7px 16px;
-    margin: 0 0 0 2em;
+    margin: .5em 0 0 2em;
   }
-  .navbar.responsive {position: relative;} 
+  .navbar.responsive {
+    animation: boxs 1s;
+    position: fixed;
+    width: 100%;
+    height: 137%;
+    background: rgba(0,0,0,.6);
+    margin-top: -7%;
+    margin-left: -2.1%;
+}
+  
+  .links{
+    animation: boxs 1s;
+    background: white;
+    float: right;
+    height: 100%;
+    width: 40%;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
   .navbar.responsive a {
     float: none;
     display: block;
-  }  
+  } 
   .imgbod{
     display: none;
     float: none;
+  }
+  .piada{
+    width: 100%;
   }
   .hcr{
     margin: 0 0 2% 43%;
@@ -91,19 +111,31 @@
   .imgbod2 , .imgbod4 , .imgbod3 {
     padding-left: 25.2%;
   }
-
   .habilidades1 , .habilidades2 , .habilidades3{
       display: inline-grid;
       text-align: center;
   }
+  .ciclo{
+    display: inline-grid;
+      text-align: center;
+    margin: 0 0 0 0;
+  }
   .bodys{
+    display: inline-grid;
     width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .imgbodd{
+    padding-left: 33.5%;
   }
   .Paragrafo{
+    font-size: 30px;
     margin-top: 3em;
+    margin-left: 1em;
   }
   .pr{
-    margin: 15% 0 1% 23%;
+    margin: 30% 0 0 -3%;
     animation: boxs 2s;
     text-align: center;
     font-size: 24px;
@@ -122,6 +154,9 @@
   .linkcontact{
     padding-left: 1.5em;
     }
+    .btn2{
+      margin-left: 25%;
+    }
 }
 @media screen and (max-width: 797px){
   .linkcontact{
@@ -130,7 +165,7 @@
   }
 }
 @media screen and (max-height: 650px) {
-  .curriculo , .pesquisa , .pessoal{
+  .curriculo , .pesquisa{
     display: none;
   }
   .pr{
@@ -164,6 +199,9 @@
   .hcr{
     margin: 0 0 0 40%;
   }
+  .btn2{
+    margin-left: 22.5%;
+  }
   .hcr1{
     margin: 0 0 0 19%;
   }
@@ -173,22 +211,50 @@
   .hcr3{
     margin: 0 0 0 25.5%;
   }
-  .imgbod2 , .imgbod3, .imgbod4{
+  .peqk{
+    margin: 0 0 5% 40%;
+  }
+  .imgbod2 , .imgbod3, .imgbod4 , .imgbodd{
     padding-left: 14%;
+  }
+  .imgbodd{
+  padding-left: 27.5%;
   }
   .linkcontact{
     float: left;
     width: 30%;
     padding-left: 3.5em;
   }
+  .links{
+    animation: boxs 1s;
+    background: white;
+    float: right;
+    height: 100%;
+    width: 40%;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+  .pr{
+    margin: 40% 0 0 -6%;
+  }
 }
-
+@media screen and (max-width: 380px) {
+  .imgbodd{
+    padding-left: 22.5%;
+  }
+  .pr{
+    margin: 30% 0 0 12%;
+  }
+}
 @media screen and (max-width: 360px) {
   .hcr{
     margin: 0 0 5% 38%;
   }
   .hcr1{
     margin: 0 0 5% 13.5%;
+  }
+  .peqk{
+    margin: 0 0 5% 36.5%;
   }
   .hcr2{
     margin: 0 0 5% 32%;
@@ -199,7 +265,25 @@
   .imgbod2 , .imgbod3, .imgbod4{
     padding-left: 7%;
   }
+  .imgbodd{
+    padding-left: 20.5%;
+  }
+  .pr{
+    margin: 30% 0 0 2%;
+  }
   .linkcontact{
     padding-left: 2%;
+  }
+  .btn2{
+    margin-left: 19%;
+  }
+  .links{
+    animation: boxs 1s;
+    background: white;
+    float: right;
+    height: 100%;
+    width: 40%;
+    margin-right: 0em;
+    margin-top: 0em;
   }
 }
