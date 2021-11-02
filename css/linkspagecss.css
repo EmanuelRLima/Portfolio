@@ -1,0 +1,175 @@
+#trade {
+    background:#0d0d0d;
+   }
+.projetos{
+    display: none;
+    background-color: #696969;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation-name: pagedown;
+    animation-duration: 2s;
+}
+.projetosup{
+    animation-name: pageup;
+    animation-duration: 2s;
+    top: -51%;
+}
+.topicos0{
+    position: absolute;
+    width: 80%;
+    top: 41%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    animation-name: op;
+    animation-duration: 4s;
+}
+.topicos1{
+    position: absolute;
+    width: 100%;
+    top: 42%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    animation-name: op;
+    animation-duration: 4s;
+}
+.tplinks{
+    margin: 0 1% 0 1%;
+    left: 48%;
+    text-decoration-color: black;
+    color: #fff;
+    font-family: 'BenchNine', sans-serif;
+}
+.backseta{
+    position: absolute;
+    width: 80px;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 235%) rotate(180deg);
+    animation-name: arrowmoveback;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.TCC{
+    display: none;
+    background-color: #BB405E;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation-name: pageleft;
+    animation-duration: 2s;
+}
+
+.projetosleft{
+    animation-name: pageleftback;
+    animation-duration: 2s;
+    left: -51%;
+}
+.backsetap{
+    position: absolute;
+    width: 80px;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -30%) rotate(90deg);
+    animation-name: arrowmoveleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.Contacts{
+    display: none;
+    background-color: #D2691E;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation-name: pagedown;
+    animation-duration: 2s;
+}
+
+.backsetac{
+    position: absolute;
+    width: 80px;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -30%) rotate(180deg);
+    animation-name: arrowmoveback2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.Contactsright{
+    animation-name: pageup;
+    animation-duration: 2s;
+    top: -51%;
+}
+
+.Curriculo{
+    display: none;
+    background-color: #B0C4DE;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation-name: pageleft;
+    animation-duration: 2s;
+}
+
+.projetosleft2{
+    animation-name: pageleftback;
+    animation-duration: 2s;
+    left: -51%;
+}
+
+.Quem{
+    display: none;
+    background-color: #191970;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation-name: pagedown;
+    animation-duration: 2s;
+}
+
+.projetosleft3{
+    animation-name: pageup;
+    animation-duration: 2s;
+    top: -51%;
+}
