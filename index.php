@@ -33,7 +33,7 @@
     </div>
 
     <section>   
-        <a href="#topicos" onclick="pagedown('projeto');"> <img class="seta" src="img/background/arrow.png"> </a>
+        <a href="#topicos" onclick="pagedown('projeto');"> <img class="seta" src="img/arrow.png"> </a>
     </section>
 
     <div id="projeto" class="projetos">
@@ -51,7 +51,7 @@
                 <a class="tplinks" href="#curriculo" onclick="pageleft2('CR');"> Curriculo </a>
                 <a class="tplinks" href="#Emanuel" onclick="pageup2('Emanuel');"> Quem é Emanuel </a>
         <section>   
-            <a href="#inicio" onclick="pageup();"> <img class="backseta" src="img/background/arrow.png"> </a>
+            <a href="#inicio" onclick="pageup();"> <img class="backseta" src="img/arrow.png"> </a>
         </section>
     </div>
 </div>
@@ -74,7 +74,7 @@
         </div>
         
         <section>   
-            <a href="#topicos1" onclick="pageleftback();"> <img class="backsetap" src="img/background/arrow.png"> </a>
+            <a href="#topicos1" onclick="pageleftback();"> <img class="backsetap" src="img/arrow.png"> </a>
         </section>
     </div>
 
@@ -88,7 +88,7 @@
             <h2> página de contatos </h2>
         </div>
         <section>   
-            <a href="#topicos1" onclick="pagedownback();"> <img class="backsetac" src="img/background/arrow.png"> </a>
+            <a href="#topicos1" onclick="pagedownback();"> <img class="backsetac" src="img/arrow.png"> </a>
         </section>
     </div>
 
@@ -102,7 +102,7 @@
             <h2> curriculo! </h2>
         </div>
         <section>   
-            <a href="#topicos1" onclick="pageleftback2();"> <img class="backsetap" src="img/background/arrow.png"> </a>
+            <a href="#topicos1" onclick="pageleftback2();"> <img class="backsetap" src="img/arrow.png"> </a>
         </section>
     </div>
 
@@ -116,7 +116,7 @@
             <h2> Página sobre! </h2>
         </div>
         <section>   
-            <a href="#topicos1" onclick="pagedownback2();"> <img class="backsetac" src="img/background/arrow.png"> </a>
+            <a href="#topicos1" onclick="pagedownback2();"> <img class="backsetac" src="img/arrow.png"> </a>
         </section>
     </div>
 </body>
