@@ -72,3 +72,33 @@ nav{
   .bu2{
     transform: translate(80%, -30%);
   }
+
+  .fit{
+    z-index: 4;
+    width: 100px;
+    border-radius: 50%;
+    margin: 2% 6% 3% 5%;
+    }
+
+.tif{
+        text-decoration: none !important;
+    }
+
+.cont{
+    top: 45% !important;
+}
+
+.cr{
+    z-index: 5;
+    width: 200px;
+    }
+
+.crr{
+   text-align: center; 
+   width: 95%;
+   margin: 2% 0% 3% 2%;
+}
+
+h2{
+    font-family: 'BenchNine', sans-serif;
+}

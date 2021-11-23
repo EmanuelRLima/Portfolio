@@ -54,7 +54,7 @@ function pagedown2(mn){
     if (typeof topicos == 'undefined' || topicos === null)
     return;
       topicos.style.display = 'flex';
-      trade.style.background = '#D2691E';
+      trade.style.background = '#008B8B';
   var x = document.getElementById("Cont");
     if (x.className === "Contacts") {
         x.className += "";
@@ -78,7 +78,7 @@ function pageleft2(mn){
     if (typeof trade == 'undefined' || trade === null)
     return;
       topicos.style.display = 'flex';
-      trade.style.background = '#B0C4DE';
+      trade.style.background = '#972e2d';
   var x = document.getElementById("CR");
     if (x.className === "Curriculo") {
         x.className += "";
@@ -87,12 +87,33 @@ function pageleft2(mn){
   }
 }
 
+window.onload=function(){
+
+  var a = document.querySelector("#back-to-top");
+  a.addEventListener("click", function(){
+    window.scrollTo(0,0);
+  });
+  var b = document.querySelector("#dack-to-top");
+  b.addEventListener("click", function(){
+  window.scrollTo(0,0);
+});
+  }
+
 function pageleftback2() {
   var x = document.getElementById("CR");
     if (x.className === "Curriculo") {
       x.className += " projetosleft2";
     }else {
       x.className = "Curriculo";
+  }
+}
+
+function pagedownback2() {
+  var x = document.getElementById("Emanuel");
+    if (x.className === "Quem") {
+      x.className += " projetosleft3";
+    }else {
+      x.className = "Quem";
   }
 }
 
@@ -111,11 +132,3 @@ function pageup2(mn){
   }
 }
 
-function pagedownback2() {
-  var x = document.getElementById("Emanuel");
-    if (x.className === "Quem") {
-      x.className += " projetosleft3";
-    }else {
-      x.className = "Contacts";
-  }
-}
