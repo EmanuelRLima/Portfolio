@@ -23,7 +23,7 @@
 <body id="trade">
     <nav>
        <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
-            <a class="links" href="https://github.com/sprylerIF"> Github </a>  
+            <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
     </nav>
     
     <div class="centralPage">
@@ -43,7 +43,7 @@
         <div>
             <nav>
             <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
-                    <a class="links" href="https://github.com/sprylerIF"> Github </a>  
+                    <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
             </nav>
         </div>
 
@@ -62,7 +62,7 @@
     <div id="TC" class="TCC">
         <nav>
         <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
-                <a class="links" href="https://github.com/sprylerIF"> Github </a>  
+                <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
         <div class="topicos0">
@@ -73,7 +73,7 @@
             
             <a href="https://docs.google.com/document/d/1bMHZsTcEY0kf6XhewyfNU1frD7-KMIeX9jfpri5uUZc/edit?usp=sharing"> <button class="bu" > Artigo </button> </a>
             <a href="https://youtu.be/BPQ6NFekGeg"> <button class="bu1" > Youtube </button> </a>
-            <a href="https://github.com/sprylerIF/waysafe"> <button class="bu2" > Código </button> </a>
+            <a href="https://github.com/EmanuelRLima/waysafe"> <button class="bu2" > Código </button> </a>
         </div>
         
         <section>   
@@ -84,13 +84,13 @@
     <div id="Cont" class="Contacts">
         <nav>
         <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
-                <a class="links" href="https://github.com/sprylerIF"> Github </a>  
+                <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
         <div class="topicos1 cont">
             <h2> Selecione a melhor forma para entrar em contato, é so cliclar! </h2>
             <a class="tif" target="_blank" href="https://www.facebook.com/Emanuel.lima.Grr/"> <img class="fit" src="img/cotatos/facebook.png"> </a>
-            <a class="tif" target="_blank" href="https://github.com/sprylerIF"> <img class="fit" src="img/cotatos/git.png">
+            <a class="tif" target="_blank" href="https://github.com/EmanuelRLima"> <img class="fit" src="img/cotatos/git.png">
             <a class="tif" target="_blank" href="https://www.linkedin.com/in/emanuel-lima-85959920a/"> <img class="fit" src="img/cotatos/in.png">
             <a class="tif" target="_blank" href="https://twitter.com/Spryler"> <img class="fit" src="img/cotatos/twitter.png">
             <a class="tif" target="_blank" href="https://api.whatsapp.com/send?phone=5584999220492"> <img class="fit" src="img/cotatos/wpp.png">
@@ -104,7 +104,7 @@
     <div id="CR" class="Curriculo">
         <nav>
         <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
-                <a class="links" href="https://github.com/sprylerIF"> Github </a>  
+                <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
         <div class="topicr">
@@ -136,7 +136,7 @@
     <div id="Emanuel" class="Quem">
         <nav>
         <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
-                <a class="links" href="https://github.com/sprylerIF"> Github </a>  
+                <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
         <div class="topiqu">
