@@ -22,7 +22,7 @@
 
 <body id="trade">
     <nav>
-       <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
+       <a href="#"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
             <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
     </nav>
     
@@ -42,7 +42,7 @@
     <div id="projeto" class="projetos">
         <div>
             <nav>
-            <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
+            <a href="#"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
                     <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
             </nav>
         </div>
@@ -61,7 +61,7 @@
 
     <div id="TC" class="TCC">
         <nav>
-        <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
+        <a href="#"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
                 <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
@@ -83,7 +83,7 @@
 
     <div id="Cont" class="Contacts">
         <nav>
-        <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
+        <a href="#"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
                 <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
@@ -103,7 +103,7 @@
 
     <div id="CR" class="Curriculo">
         <nav>
-        <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
+        <a href="#"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
                 <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
@@ -135,7 +135,7 @@
 
     <div id="Emanuel" class="Quem">
         <nav>
-        <a href="https://localhost/port/"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
+        <a href="#"> <img class="logo" src="img/ER.png" alt="Logo"> </a>
                 <a class="links" href="https://github.com/EmanuelRLima"> Github </a>  
         </nav>
 
